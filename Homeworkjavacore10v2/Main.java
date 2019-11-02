@@ -8,7 +8,7 @@ public class Main {
     	
     	Scanner scanner = new Scanner (System.in);
     	
-    	System.out.println( " Вивести текст : " ) ;
+    	System.out.println( " Г‚ГЁГўГҐГ±ГІГЁ ГІГҐГЄГ±ГІ : " ) ;
     	
     	String text = scanner.nextLine() ;
     	
@@ -22,7 +22,7 @@ public class Main {
 		char textArray[] = text.toCharArray();
 		char vowelArray[] = { 'a','o','y','e','u','i'};
 		
-		for (int i = 0 ; i < vowelArray.length; i++ ) {
+		for (int i = 0 ; i < textArray.length; i++ ) {
 			
 			for (int j = 0 ; j < vowelArray.length; j++ ) {
 				
